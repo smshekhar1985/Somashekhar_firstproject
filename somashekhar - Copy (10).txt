@@ -1,4 +1,5 @@
-
+Editing the file for further changes.
+Just checking the data
 Master Branch
 The master branch is the main branch of the project that contains all the history of final changes. Every developer must be used to the master branch. The master branch contains the source code of HEAD that always reflects a final version of the project.
 Your local repository has its master branch that always up to date with the master of a remote repository.
