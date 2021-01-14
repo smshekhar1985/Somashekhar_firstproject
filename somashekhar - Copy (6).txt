@@ -1,0 +1,40 @@
+
+Master Branch
+The master branch is the main branch of the project that contains all the history of final changes. Every developer must be used to the master branch. The master branch contains the source code of HEAD that always reflects a final version of the project.
+Your local repository has its master branch that always up to date with the master of a remote repository.
+It is suggested not to mess with the master. If you edited the master branch of a group project, your changes would affect everyone else, and very quickly, there will be merge conflicts.
+
+Develop Branch
+It is parallel to the master branch. It is also considered as the main branch of the project. This branch contains the latest delivered development changes for the next release. It has the final source code for the release. It is also called as a "integration branch."
+When the develop branch reaches a stable point and is ready to release, it should be merged with master and tagged with a release version.
+
+Supportive Branches
+
+Feature branches
+Feature branches can be considered as topic branches. It is used to develop a new feature for the next version of the project. The existence of this branch is limited; it is deleted after its feature has been merged with develop branch.
+
+
+Release branches
+The release branch is created for the support of a new version release. Senior developers will create a release branch. The release branch will contain the predetermined amount of the feature branch. The release branch should be deployed to a staging server for testing.
+
+Developers are allowed for minor bug fixing and preparing meta-data for a release on this branch. After all these tasks, it can be merged with the develop branch.
+
+When all the targeted features are created, then it can be merged with the develop branch. Some usual standard of the release branch are as follows:
+
+Generally, senior developers will create a release branch.
+The release branch will contain the predetermined amount of the feature branch.
+The release branch should be deployed to a staging server for testing.
+Any bugs that need to be improved must be addressed at the release branch.
+The release branch must have to be merged back into developing as well as the master branch.
+After merging, the release branch with the develop branch must be tagged with a version number.
+
+
+Hotfix branches
+otfix branches are similar to Release branches; both are created for a new production release.
+
+The hotfix branches arise due to immediate action on the project. In case of a critical bug in a production version, a hotfix branch may branch off in your project. After fixing the bug, this branch can be merged with the master branch with a tag.
+
+
+
+
+
